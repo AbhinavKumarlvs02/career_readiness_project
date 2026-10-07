@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_blockchain_developer_2026",
+  "role_title": "Blockchain Developer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Programming, systems design, and software testing foundation"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "Specialized programming and developer-tooling context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Solidity / Rust / Move", "weight": 1.0, "category": "Smart Contract Programming"},
+      {"skill": "Ethereum / Solana Fundamentals", "weight": 0.95, "category": "Blockchain Platforms"},
+      {"skill": "Smart Contract Security", "weight": 1.0, "category": "Security"},
+      {"skill": "Web3.js / Ethers.js", "weight": 0.85, "category": "Web3 Integration"},
+      {"skill": "Git / GitHub", "weight": 0.9, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Hardhat / Foundry", "weight": 0.85, "category": "Development Tools"},
+      {"skill": "Token Standards: ERC-20 / ERC-721", "weight": 0.8, "category": "Tokens"},
+      {"skill": "DeFi / NFT Protocols", "weight": 0.75, "category": "Applications"},
+      {"skill": "Layer 2 Scaling", "weight": 0.7, "category": "Infrastructure"},
+      {"skill": "Cryptography Basics", "weight": 0.8, "category": "Security"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Security-First Thinking", "weight": 0.95, "extraction_keywords": ["audit", "reentrancy", "exploit", "upgradeability"]},
+      {"skill": "Attention to Detail", "weight": 0.9, "extraction_keywords": ["gas optimization", "edge case", "unit test", "invariant"]},
+      {"skill": "Open-Source Collaboration", "weight": 0.8, "extraction_keywords": ["open source", "community", "documentation", "code review"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced contract gas cost by %",
+      "passed X security audits",
+      "processed X transactions",
+      "protected X USD in contract value"
+    ]
+  }
+}

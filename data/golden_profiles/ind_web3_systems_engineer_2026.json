@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_web3_systems_engineer_2026",
+  "role_title": "Web3 Systems Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Distributed software systems, architecture, and integration"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "Backend, cloud, API, and specialized systems tooling context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Backend Programming: Node.js / Go / Rust / Python", "weight": 1.0, "category": "Programming"},
+      {"skill": "Blockchain Node / RPC Integration", "weight": 0.95, "category": "Web3 Infrastructure"},
+      {"skill": "Smart Contract Interaction", "weight": 0.9, "category": "Web3"},
+      {"skill": "Distributed Systems Fundamentals", "weight": 0.9, "category": "Systems"},
+      {"skill": "Databases: PostgreSQL / Redis", "weight": 0.85, "category": "Data Stores"}
+    ],
+    "preferred_skills": [
+      {"skill": "Indexers: The Graph / Custom Indexer", "weight": 0.8, "category": "Data Infrastructure"},
+      {"skill": "Kafka / Event-Driven Architecture", "weight": 0.75, "category": "Event Systems"},
+      {"skill": "Kubernetes / Docker", "weight": 0.8, "category": "Deployment"},
+      {"skill": "Wallet / Key Management Security", "weight": 0.85, "category": "Security"},
+      {"skill": "Layer 2 / Cross-Chain Protocols", "weight": 0.75, "category": "Blockchain Infrastructure"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Systems Reliability Thinking", "weight": 0.9, "extraction_keywords": ["uptime", "retry", "idempotency", "failure mode"]},
+      {"skill": "Security-Conscious Design", "weight": 0.95, "extraction_keywords": ["key management", "private key", "audit", "attack surface"]},
+      {"skill": "Cross-Team Technical Communication", "weight": 0.8, "extraction_keywords": ["protocol", "architecture", "integration", "documentation"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "indexed X blockchain events per day",
+      "reduced indexer latency by %",
+      "maintained X% node / API uptime",
+      "processed X transactions without data loss"
+    ]
+  }
+}

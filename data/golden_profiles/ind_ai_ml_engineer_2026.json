@@ -1,0 +1,54 @@
+{
+  "role_id": "ind_ai_ml_engineer_2026",
+  "role_title": "AI / ML Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers (15-1252.00) and Data Scientists (15-2051.00)",
+      "contribution": "ML implementation, programming, data analysis, and production systems"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 AI and Developer Tooling Trends",
+      "contribution": "Python, cloud tooling, and production AI workflows"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Python", "weight": 1.0, "category": "Programming"},
+      {"skill": "Machine Learning Fundamentals", "weight": 1.0, "category": "Machine Learning"},
+      {"skill": "scikit-learn", "weight": 0.9, "category": "ML Libraries"},
+      {"skill": "Pandas / NumPy", "weight": 0.9, "category": "Data Manipulation"},
+      {"skill": "SQL", "weight": 0.85, "category": "Data Access"},
+      {"skill": "Git / GitHub", "weight": 0.9, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "PyTorch / TensorFlow", "weight": 0.85, "category": "Deep Learning"},
+      {"skill": "Model Evaluation and Validation", "weight": 0.9, "category": "ML Quality"},
+      {"skill": "Feature Engineering", "weight": 0.85, "category": "Data Preparation"},
+      {"skill": "FastAPI / Flask Model Serving", "weight": 0.8, "category": "Deployment"},
+      {"skill": "Docker / MLflow / Cloud ML", "weight": 0.75, "category": "MLOps"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Experimental Rigor", "weight": 0.9, "extraction_keywords": ["baseline", "cross-validation", "ab test", "metrics"]},
+      {"skill": "Production Mindset", "weight": 0.85, "extraction_keywords": ["latency", "monitoring", "drift", "rollback"]},
+      {"skill": "Responsible AI", "weight": 0.8, "extraction_keywords": ["bias", "privacy", "fairness", "explainability"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "improved F1 / AUC / accuracy by X points",
+      "reduced inference latency by %",
+      "reduced model serving cost by %",
+      "deployed model handling X predictions per day"
+    ]
+  }
+}

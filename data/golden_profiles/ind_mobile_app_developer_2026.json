@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_mobile_app_dev_2026",
+  "role_title": "Mobile App Developer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Application design, programming, and user-need analysis"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "JavaScript/TypeScript, React Native, and mobile-stack context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Kotlin / Android or Swift / iOS or Flutter / React Native", "weight": 1.0, "category": "Mobile Development"},
+      {"skill": "Mobile UI/UX Principles", "weight": 0.95, "category": "Design"},
+      {"skill": "REST API Integration", "weight": 0.9, "category": "Networking"},
+      {"skill": "SQLite / Room / Core Data", "weight": 0.85, "category": "Data Persistence"},
+      {"skill": "Git / GitHub", "weight": 0.9, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Firebase / Push Notifications", "weight": 0.75, "category": "Backend Services"},
+      {"skill": "Espresso / XCTest / Detox", "weight": 0.75, "category": "Testing"},
+      {"skill": "Play Store / App Store Deployment", "weight": 0.7, "category": "Release"},
+      {"skill": "Offline-First Architecture", "weight": 0.7, "category": "Architecture"},
+      {"skill": "App Performance / Battery Optimization", "weight": 0.75, "category": "Performance"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "User-Centric Design", "weight": 0.9, "extraction_keywords": ["usability", "accessibility", "user flow", "responsive"]},
+      {"skill": "Device and Platform Awareness", "weight": 0.85, "extraction_keywords": ["android", "ios", "permissions", "screen size"]},
+      {"skill": "Crash and Debug Analysis", "weight": 0.85, "extraction_keywords": ["crash log", "debugging", "device testing", "regression"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced app crash rate by %",
+      "reduced app startup time by % / ms",
+      "increased daily active users by %",
+      "improved app store rating from X to Y"
+    ]
+  }
+}

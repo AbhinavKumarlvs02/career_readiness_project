@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_frontend_engineer_2026",
+  "role_title": "Frontend Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "User-interface development and software design"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "JavaScript, TypeScript, HTML/CSS, React, and Node.js weighting"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "HTML5 / Semantic Markup", "weight": 1.0, "category": "Web Fundamentals"},
+      {"skill": "CSS3 / Responsive Layout", "weight": 1.0, "category": "Styling"},
+      {"skill": "JavaScript / TypeScript", "weight": 1.0, "category": "Programming"},
+      {"skill": "React.js / Next.js", "weight": 0.95, "category": "Frontend Frameworks"},
+      {"skill": "Git / GitHub", "weight": 0.9, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Tailwind CSS / CSS Modules", "weight": 0.8, "category": "Styling"},
+      {"skill": "REST / GraphQL Integration", "weight": 0.85, "category": "API Consumption"},
+      {"skill": "Accessibility: WCAG / ARIA", "weight": 0.85, "category": "Accessibility"},
+      {"skill": "Jest / React Testing Library / Playwright", "weight": 0.75, "category": "Testing"},
+      {"skill": "Core Web Vitals / Performance Optimization", "weight": 0.8, "category": "Performance"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Design-to-Code Collaboration", "weight": 0.85, "extraction_keywords": ["figma", "design system", "wireframe", "prototype"]},
+      {"skill": "Attention to Detail", "weight": 0.85, "extraction_keywords": ["pixel-perfect", "responsive", "accessibility", "edge case"]},
+      {"skill": "Cross-Functional Communication", "weight": 0.75, "extraction_keywords": ["product manager", "designer", "stakeholder", "feedback"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "improved Lighthouse performance score to X",
+      "reduced bundle size by %",
+      "increased conversion rate by %",
+      "built X reusable UI components"
+    ]
+  }
+}

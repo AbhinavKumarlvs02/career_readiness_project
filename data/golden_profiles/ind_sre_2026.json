@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_sre_2026",
+  "role_title": "Site Reliability Engineer (SRE)",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Systems reliability, troubleshooting, and software operations"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Tooling Trends",
+      "contribution": "Cloud-native and operational tooling context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Linux / Networking Fundamentals", "weight": 1.0, "category": "Systems"},
+      {"skill": "Python / Go / Bash", "weight": 0.9, "category": "Programming"},
+      {"skill": "Docker / Kubernetes", "weight": 0.9, "category": "Containers"},
+      {"skill": "Monitoring and Alerting: Prometheus / Grafana", "weight": 0.95, "category": "Observability"},
+      {"skill": "Cloud Platform: AWS / GCP / Azure", "weight": 0.9, "category": "Cloud"}
+    ],
+    "preferred_skills": [
+      {"skill": "SLO / SLI / Error Budget Design", "weight": 0.9, "category": "Reliability"},
+      {"skill": "Incident Management and Postmortems", "weight": 0.9, "category": "Operations"},
+      {"skill": "Terraform / Infrastructure as Code", "weight": 0.8, "category": "Infrastructure"},
+      {"skill": "Load Testing: k6 / Locust", "weight": 0.75, "category": "Performance"},
+      {"skill": "CI/CD and Progressive Delivery", "weight": 0.8, "category": "Automation"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Calm Incident Handling", "weight": 0.95, "extraction_keywords": ["incident", "escalation", "on-call", "mitigation"]},
+      {"skill": "Root-Cause Analysis", "weight": 0.95, "extraction_keywords": ["root cause", "postmortem", "timeline", "contributing factor"]},
+      {"skill": "Blameless Communication", "weight": 0.85, "extraction_keywords": ["postmortem", "learning", "action item", "stakeholder"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "maintained X% service availability",
+      "reduced MTTR by % / minutes",
+      "reduced paging noise by %",
+      "met X% SLO compliance"
+    ]
+  }
+}

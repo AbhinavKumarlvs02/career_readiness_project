@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_backend_engineer_2026",
+  "role_title": "Backend Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Database design, systems integration, and software architecture"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "Node.js, Python, SQL, PostgreSQL, and API stack weighting"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Node.js / Python / Java / Go", "weight": 1.0, "category": "Programming"},
+      {"skill": "SQL / PostgreSQL / MySQL", "weight": 1.0, "category": "Database"},
+      {"skill": "RESTful API Design", "weight": 1.0, "category": "API Architecture"},
+      {"skill": "Authentication: JWT / OAuth 2.0", "weight": 0.85, "category": "Security"},
+      {"skill": "Git / GitHub", "weight": 0.95, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Express / FastAPI / Spring Boot / Gin", "weight": 0.85, "category": "Backend Frameworks"},
+      {"skill": "Redis / MongoDB", "weight": 0.75, "category": "Data Stores"},
+      {"skill": "Docker / CI-CD", "weight": 0.8, "category": "Deployment"},
+      {"skill": "Unit / Integration Testing", "weight": 0.85, "category": "Testing"},
+      {"skill": "Kafka / RabbitMQ", "weight": 0.7, "category": "Distributed Systems"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Debugging and Root-Cause Analysis", "weight": 0.9, "extraction_keywords": ["logs", "incident", "debug", "error"]},
+      {"skill": "System Design Fundamentals", "weight": 0.85, "extraction_keywords": ["scalability", "caching", "database schema", "latency"]},
+      {"skill": "Technical Documentation", "weight": 0.75, "extraction_keywords": ["openapi", "readme", "api docs", "architecture"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced API response time by % / ms",
+      "supported X requests per second",
+      "reduced database query time by %",
+      "increased test coverage from X% to Y%"
+    ]
+  }
+}

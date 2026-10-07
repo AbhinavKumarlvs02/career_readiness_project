@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_cybersecurity_analyst_2026",
+  "role_title": "Cybersecurity Analyst",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Information Security Analysts occupation data",
+      "contribution": "Security monitoring, vulnerability assessment, and incident response"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Security and Tooling Trends",
+      "contribution": "Developer security practices and cloud security context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Networking: TCP/IP, DNS, HTTP", "weight": 1.0, "category": "Networking"},
+      {"skill": "Linux / Windows Administration", "weight": 0.95, "category": "Systems"},
+      {"skill": "Security Fundamentals: CIA, Encryption, IAM", "weight": 1.0, "category": "Security"},
+      {"skill": "SIEM / Log Analysis", "weight": 0.9, "category": "Monitoring"},
+      {"skill": "Vulnerability Assessment", "weight": 0.9, "category": "Assessment"}
+    ],
+    "preferred_skills": [
+      {"skill": "OWASP Top 10", "weight": 0.9, "category": "Application Security"},
+      {"skill": "Wireshark / Packet Analysis", "weight": 0.8, "category": "Network Security"},
+      {"skill": "Python / Bash Automation", "weight": 0.8, "category": "Scripting"},
+      {"skill": "Cloud Security: IAM, Policies, Logging", "weight": 0.8, "category": "Cloud Security"},
+      {"skill": "Incident Response Frameworks", "weight": 0.85, "category": "Response"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Threat Investigation", "weight": 0.95, "extraction_keywords": ["indicator", "timeline", "threat", "root cause"]},
+      {"skill": "Incident Communication", "weight": 0.9, "extraction_keywords": ["escalation", "containment", "stakeholder", "report"]},
+      {"skill": "Security Awareness", "weight": 0.8, "extraction_keywords": ["phishing", "training", "policy", "risk"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced mean time to detect by % / hours",
+      "resolved X security incidents",
+      "reduced vulnerable assets by %",
+      "improved phishing resilience by %"
+    ]
+  }
+}

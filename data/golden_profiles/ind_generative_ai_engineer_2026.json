@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_generative_ai_engineer_2026",
+  "role_title": "Generative AI Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers (15-1252.00) and Data Scientists (15-2051.00)",
+      "contribution": "AI systems, programming, and data-driven applications"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 AI and Agent Usage Trends",
+      "contribution": "LLM, agent, and AI workflow adoption"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Python / TypeScript", "weight": 1.0, "category": "Programming"},
+      {"skill": "LLM APIs: OpenAI / Anthropic / Gemini", "weight": 1.0, "category": "Generative AI"},
+      {"skill": "Prompt Engineering", "weight": 0.95, "category": "Generative AI"},
+      {"skill": "Embeddings and Vector Search", "weight": 0.9, "category": "AI Systems"},
+      {"skill": "REST API Development", "weight": 0.85, "category": "Backend"}
+    ],
+    "preferred_skills": [
+      {"skill": "RAG Architecture", "weight": 0.9, "category": "AI Systems"},
+      {"skill": "LangChain / LlamaIndex", "weight": 0.75, "category": "AI Frameworks"},
+      {"skill": "pgvector / Pinecone / Weaviate", "weight": 0.8, "category": "Vector Databases"},
+      {"skill": "Evaluation, Guardrails, and Hallucination Control", "weight": 0.9, "category": "Reliability"},
+      {"skill": "FastAPI / Next.js", "weight": 0.8, "category": "Application Stack"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Product Thinking", "weight": 0.9, "extraction_keywords": ["user problem", "workflow", "adoption", "feedback"]},
+      {"skill": "Evaluation Mindset", "weight": 0.9, "extraction_keywords": ["benchmark", "test set", "accuracy", "regression"]},
+      {"skill": "Responsible AI", "weight": 0.9, "extraction_keywords": ["hallucination", "privacy", "bias", "safety", "guardrail"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "improved answer accuracy by %",
+      "reduced hallucination rate by %",
+      "reduced support resolution time by %",
+      "increased task completion rate by %"
+    ]
+  }
+}

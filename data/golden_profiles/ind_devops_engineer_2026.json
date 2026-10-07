@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_devops_engineer_2026",
+  "role_title": "DevOps Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Deployment, systems integration, and operational monitoring"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Tooling Trends",
+      "contribution": "Cloud, containers, CI/CD, and infrastructure tooling"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Linux / Shell Scripting", "weight": 1.0, "category": "Operating Systems"},
+      {"skill": "Git / GitHub", "weight": 1.0, "category": "Version Control"},
+      {"skill": "Docker", "weight": 0.95, "category": "Containers"},
+      {"skill": "CI/CD: GitHub Actions / GitLab CI / Jenkins", "weight": 0.95, "category": "Automation"},
+      {"skill": "One Cloud Platform: AWS / GCP / Azure", "weight": 0.9, "category": "Cloud"}
+    ],
+    "preferred_skills": [
+      {"skill": "Kubernetes", "weight": 0.8, "category": "Orchestration"},
+      {"skill": "Terraform", "weight": 0.85, "category": "Infrastructure as Code"},
+      {"skill": "Prometheus / Grafana", "weight": 0.8, "category": "Observability"},
+      {"skill": "Python / Bash Automation", "weight": 0.8, "category": "Scripting"},
+      {"skill": "IAM / Secrets Management / TLS", "weight": 0.8, "category": "Security"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Incident Response", "weight": 0.9, "extraction_keywords": ["alert", "on-call", "postmortem", "rollback"]},
+      {"skill": "Reliability Thinking", "weight": 0.9, "extraction_keywords": ["uptime", "backup", "redundancy", "disaster recovery"]},
+      {"skill": "Documentation", "weight": 0.8, "extraction_keywords": ["runbook", "playbook", "architecture diagram", "configuration"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced deployment time by %",
+      "improved uptime to X%",
+      "reduced mean time to recovery by % / minutes",
+      "reduced infrastructure cost by %"
+    ]
+  }
+}

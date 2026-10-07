@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_data_engineer_2026",
+  "role_title": "Data Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Data Scientists (15-2051.00) and Database Architects occupations",
+      "contribution": "Data pipelines, databases, data modeling, and analytics infrastructure"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "Python, SQL, cloud, and database tooling weighting"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Python", "weight": 1.0, "category": "Programming"},
+      {"skill": "SQL", "weight": 1.0, "category": "Data Querying"},
+      {"skill": "ETL / ELT Pipeline Design", "weight": 1.0, "category": "Data Engineering"},
+      {"skill": "Relational Databases: PostgreSQL / MySQL", "weight": 0.95, "category": "Database"},
+      {"skill": "Git / GitHub", "weight": 0.9, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Apache Spark", "weight": 0.75, "category": "Big Data"},
+      {"skill": "Airflow / Dagster", "weight": 0.8, "category": "Orchestration"},
+      {"skill": "Snowflake / BigQuery / Redshift", "weight": 0.8, "category": "Data Warehouse"},
+      {"skill": "Kafka / Streaming Pipelines", "weight": 0.7, "category": "Real-Time Data"},
+      {"skill": "dbt", "weight": 0.75, "category": "Analytics Engineering"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Data Quality Ownership", "weight": 0.95, "extraction_keywords": ["validation", "deduplication", "schema", "data quality"]},
+      {"skill": "Documentation and Lineage", "weight": 0.8, "extraction_keywords": ["data catalog", "lineage", "metadata", "documentation"]},
+      {"skill": "Stakeholder Communication", "weight": 0.75, "extraction_keywords": ["analysts", "requirements", "sla", "dashboard"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced pipeline runtime by %",
+      "improved data freshness from X hours to Y minutes",
+      "reduced data quality incidents by %",
+      "processed X GB / records per day"
+    ]
+  }
+}

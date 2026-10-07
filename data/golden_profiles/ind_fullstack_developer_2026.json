@@ -1,0 +1,55 @@
+{
+  "role_id": "ind_fullstack_dev_2026",
+  "role_title": "Full-Stack Developer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers Taxonomy (15-1252.00)",
+      "contribution": "Core programming, database, and software design mapping"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Technology Trends",
+      "contribution": "JavaScript, React, Node.js, SQL, and PostgreSQL weighting"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "JavaScript / TypeScript", "weight": 1.0, "category": "Programming"},
+      {"skill": "HTML5 / CSS3", "weight": 0.95, "category": "Web Fundamentals"},
+      {"skill": "React.js / Next.js", "weight": 0.95, "category": "Frontend Frameworks"},
+      {"skill": "Node.js / Express", "weight": 0.9, "category": "Backend Frameworks"},
+      {"skill": "PostgreSQL / MongoDB", "weight": 0.9, "category": "Database"},
+      {"skill": "REST API Design", "weight": 0.9, "category": "API Architecture"},
+      {"skill": "Git / GitHub", "weight": 0.95, "category": "Version Control"}
+    ],
+    "preferred_skills": [
+      {"skill": "Tailwind CSS", "weight": 0.75, "category": "Styling"},
+      {"skill": "GraphQL", "weight": 0.7, "category": "API Architecture"},
+      {"skill": "Docker", "weight": 0.7, "category": "Deployment"},
+      {"skill": "Jest / Playwright", "weight": 0.75, "category": "Testing"},
+      {"skill": "Cloud Deployment", "weight": 0.75, "category": "Cloud"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Agile / Scrum", "weight": 0.8, "extraction_keywords": ["sprint", "agile", "stand-up", "jira"]},
+      {"skill": "User-Centric Design", "weight": 0.8, "extraction_keywords": ["responsive", "accessibility", "ux", "ui"]},
+      {"skill": "End-to-End Ownership", "weight": 0.85, "extraction_keywords": ["feature", "deployment", "debugging", "production"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced page load time by % / ms",
+      "increased user retention by %",
+      "handled X monthly active users",
+      "reduced API latency by %"
+    ]
+  }
+}

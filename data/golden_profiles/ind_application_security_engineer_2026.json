@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_application_security_engineer_2026",
+  "role_title": "Application Security Engineer",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers (15-1252.00) and Information Security Analysts occupation data",
+      "contribution": "Secure software development, testing, and vulnerability analysis"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Developer Security and Tooling Trends",
+      "contribution": "Developer security tooling and secure coding context"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Secure Coding: OWASP Top 10", "weight": 1.0, "category": "Application Security"},
+      {"skill": "Web Security: XSS, CSRF, SQLi, SSRF", "weight": 1.0, "category": "Vulnerabilities"},
+      {"skill": "Python / JavaScript / Java", "weight": 0.9, "category": "Programming"},
+      {"skill": "SAST / DAST Tooling", "weight": 0.9, "category": "Security Testing"},
+      {"skill": "Git / CI-CD Security Integration", "weight": 0.85, "category": "DevSecOps"}
+    ],
+    "preferred_skills": [
+      {"skill": "Threat Modeling: STRIDE", "weight": 0.85, "category": "Risk Analysis"},
+      {"skill": "Burp Suite / OWASP ZAP", "weight": 0.8, "category": "Penetration Testing"},
+      {"skill": "Dependency / Supply Chain Security", "weight": 0.8, "category": "Software Supply Chain"},
+      {"skill": "Cloud Security Configuration", "weight": 0.8, "category": "Cloud Security"},
+      {"skill": "Cryptography Basics", "weight": 0.75, "category": "Security"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Developer-Friendly Remediation Guidance", "weight": 0.9, "extraction_keywords": ["fix", "patch", "code review", "remediation"]},
+      {"skill": "Risk Prioritization", "weight": 0.9, "extraction_keywords": ["severity", "exploitability", "impact", "cvss"]},
+      {"skill": "Security Advocacy", "weight": 0.8, "extraction_keywords": ["training", "secure by design", "policy", "awareness"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced critical vulnerabilities by %",
+      "reduced vulnerability fix time by % / days",
+      "increased SAST / DAST coverage to X%",
+      "prevented X high-severity releases"
+    ]
+  }
+}

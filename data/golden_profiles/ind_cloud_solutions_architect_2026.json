@@ -1,0 +1,53 @@
+{
+  "role_id": "ind_cloud_solutions_architect_2026",
+  "role_title": "Cloud Solutions Architect",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Software Developers (15-1252.00) and Computer Network Architects occupations",
+      "contribution": "Systems architecture, network design, and technology integration"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Cloud and Developer Tooling Trends",
+      "contribution": "Cloud adoption and infrastructure tooling"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Cloud Platform: AWS / GCP / Azure", "weight": 1.0, "category": "Cloud"},
+      {"skill": "Networking: VPC, DNS, Load Balancing", "weight": 0.95, "category": "Networking"},
+      {"skill": "Compute and Storage Services", "weight": 0.95, "category": "Cloud Services"},
+      {"skill": "Identity and Access Management", "weight": 0.9, "category": "Security"},
+      {"skill": "Infrastructure as Code: Terraform", "weight": 0.85, "category": "Automation"}
+    ],
+    "preferred_skills": [
+      {"skill": "Microservices Architecture", "weight": 0.8, "category": "Architecture"},
+      {"skill": "Kubernetes", "weight": 0.8, "category": "Containers"},
+      {"skill": "Cost Optimization / FinOps", "weight": 0.8, "category": "Cloud Economics"},
+      {"skill": "Disaster Recovery and High Availability", "weight": 0.85, "category": "Reliability"},
+      {"skill": "Well-Architected Framework", "weight": 0.8, "category": "Architecture"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Architecture Communication", "weight": 0.95, "extraction_keywords": ["architecture diagram", "trade-off", "requirement", "proposal"]},
+      {"skill": "Stakeholder Management", "weight": 0.85, "extraction_keywords": ["business", "technical team", "cost", "timeline"]},
+      {"skill": "Risk-Based Decision Making", "weight": 0.9, "extraction_keywords": ["security", "resilience", "compliance", "scalability"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "reduced cloud cost by %",
+      "improved availability to X%",
+      "reduced deployment lead time by %",
+      "supported X users / workloads"
+    ]
+  }
+}

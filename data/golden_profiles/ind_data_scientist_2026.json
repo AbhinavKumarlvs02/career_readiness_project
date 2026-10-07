@@ -1,0 +1,54 @@
+{
+  "role_id": "ind_data_scientist_2026",
+  "role_title": "Data Scientist",
+  "experience_level": "Entry-Level / New Graduate",
+  "last_updated": "2026-10-07",
+
+  "validation_sources": [
+    {
+      "authority": "O*NET OnLine",
+      "dataset": "Data Scientists Taxonomy (15-2051.00)",
+      "contribution": "Data mining, machine learning, statistical analysis, and visualization"
+    },
+    {
+      "authority": "Stack Overflow Developer Survey",
+      "dataset": "2026 Language Usage Trends",
+      "contribution": "Python and SQL adoption"
+    }
+  ],
+
+  "technical_requirements": {
+    "mandatory_skills": [
+      {"skill": "Python", "weight": 1.0, "category": "Programming"},
+      {"skill": "SQL", "weight": 0.95, "category": "Data Access"},
+      {"skill": "Statistics and Probability", "weight": 1.0, "category": "Mathematics"},
+      {"skill": "Pandas / NumPy", "weight": 0.95, "category": "Data Manipulation"},
+      {"skill": "scikit-learn", "weight": 0.9, "category": "Machine Learning"},
+      {"skill": "Data Visualization: Matplotlib / Seaborn / Power BI", "weight": 0.85, "category": "Visualization"}
+    ],
+    "preferred_skills": [
+      {"skill": "A/B Testing", "weight": 0.8, "category": "Experimentation"},
+      {"skill": "Feature Engineering", "weight": 0.85, "category": "Data Preparation"},
+      {"skill": "PyTorch / TensorFlow", "weight": 0.7, "category": "Deep Learning"},
+      {"skill": "NLP / Computer Vision", "weight": 0.7, "category": "Applied AI"},
+      {"skill": "Cloud Notebooks / ML Deployment", "weight": 0.7, "category": "Deployment"}
+    ]
+  },
+
+  "soft_skills_requirements": {
+    "critical_indicators": [
+      {"skill": "Business Problem Framing", "weight": 0.9, "extraction_keywords": ["business objective", "hypothesis", "success metric", "recommendation"]},
+      {"skill": "Analytical Storytelling", "weight": 0.9, "extraction_keywords": ["insight", "dashboard", "presentation", "stakeholder"]},
+      {"skill": "Critical Thinking", "weight": 0.85, "extraction_keywords": ["bias", "outlier", "data quality", "assumption"]}
+    ]
+  },
+
+  "impact_metrics": {
+    "expected_quantifiers": [
+      "improved model metric by X points",
+      "identified insight improving KPI by %",
+      "reduced churn / fraud / cost by %",
+      "automated analysis saving X hours weekly"
+    ]
+  }
+}
